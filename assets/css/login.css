@@ -1,0 +1,28 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(118.7deg, #8045B8 10.14%, #16002C 118.74%);
+}
+
+.card {
+    background: #161616;
+    border-radius: 8px;
+}
+
+#login {
+    background: #9B51E0;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.form-control {
+    background: #2D2236;
+    opacity: 0.8;
+    border: 2px solid #6B2AA8;
+    border-radius: 4px;
+    color: #ffffff;
+}
+

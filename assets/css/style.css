@@ -1,0 +1,277 @@
+body {
+    background-color: #161616;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* hero section */
+.hero-section {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.hero-section p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.hero-section .btn{
+    background-color: #9B51E0;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 14px 40px;
+
+}
+/* hero section */
+
+
+/* style Most Popular Product */
+
+.popular-product{
+    margin-bottom: 100px;
+}
+
+.popular-product h4{
+    color: #ffffff;
+    padding-bottom: 14px;
+    font-family: Chakra Petch;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.grid-product{
+    display: flex;
+    margin-bottom: 80px;
+}
+.grid-product .item-product-1 img{
+    border-radius: 8px;
+    width: 427px;
+    height: 682px;
+    object-fit: cover;
+}
+
+.grid-product .item-product-1{
+    margin-right: 24px;
+}
+
+.grid-product .item-product {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 16px;
+}
+
+.grid-product .item-product img{
+    border-radius: 8px;
+    width: 428px;
+    height: 328px;
+}
+/* style Most Popular Product */
+
+
+/* style About */
+.about {
+    background-image: url(../images/brands/background=about.jpg);
+    width:100% ;
+    height: 984px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about .content{
+    padding-top: 80px;
+}
+
+.about .content  h4{
+    color: #ffffff;
+    font-family: Chakra Petch;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about h2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* all product */
+
+.product {
+    margin-bottom: 148px;
+}
+
+.product h4{
+    color: #ffffff;
+    padding-bottom: 14px;
+    font-family: Chakra Petch;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product h6 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 24px;
+}
+
+.product span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product .product-item{
+    margin-bottom: 24px;
+}
+
+.all-product{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* all product */
+
+/* blog */
+
+.blog .img-svg{
+    width: 100%;
+    height: 43px;
+    margin-top: -143px;
+}
+
+.blog{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #28282B;
+}
+
+.blog hr {
+    color: #9B51E0;
+    border: 2px solid;
+}
+
+.blog h1 {
+    color: #ffffff;
+    font-size: 262px;
+    line-height: 300px;
+    font-weight: 700;
+}
+
+.img-blog{
+    background-image: url(../images/blog/image02.jpg);
+    width: 540px;
+    height: 453px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.blog .article {
+    margin-top: 40px;
+    display: flex;
+}
+
+.blog .article .col-md-5 {
+    margin-right: 24px;
+    padding-top: 16px;
+}
+
+
+.img-down{
+    width: 100%;
+    height: 43px;
+    /* margin-bottom: -20px; */
+}
+
+.blog .article h4 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.blog .article p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.blog .article .item-img-01 {
+    background-image: url(../images/blog/image01.jpg);
+    height: 315px;
+    width: 1261px;
+    margin-right: 24px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.blog .article .item-img-02 {
+    background-image: url(../images/blog/image03.jpg);
+    height: 315px;
+    width: 1261px;
+    margin-right: 24px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.blog .article .item{
+    display: flex;
+    margin-top: 38px;
+}
+
+.img-svg{
+    background-image: url(../images/brands/up.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.img-down{
+    background-image: url(../images/brands/down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+/* blog */
+
+/* footer */
+footer .container {
+    padding-top: 40px;
+}
+/* footer */
